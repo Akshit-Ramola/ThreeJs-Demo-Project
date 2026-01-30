@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    
+  </head>
+  <body>
+    <div class="main w-full">
+      <nav class="fixed w-full top-0 left-0 px-10 py-3 flex justify-between items-center">
+        <img class="w-[160px] mic-blend-screen filter saturate-150 contrast-125" 
+        src="https://www.pngall.com/wp-content/uploads/4/Cyberpunk-2077-Logo-PNG-Image.png" alt="Sample Image" />
+        <div class="flex gap-5 items-center">
+        <a href="#" class="tracking-tight text-yellow-400 font-semibold hover:text-blue-400 transition">Home</a>
+        <a href="#" class="tracking-tight text-yellow-400 font-semibold hover:text-blue-400 transition">Games</a>
+        <a href="#" class="tracking-tight text-yellow-400 font-semibold hover:text-blue-400 transition">News</a>
+        <a href="#" class="tracking-tight text-yellow-400 font-semibold hover:text-blue-400 transition">Community</a>
+        <a href="#" class="tracking-tight text-yellow-400 font-semibold hover:text-blue-400 transition">Contact</a>
+        </div>
+      </nav>
+      <div class="w-full h-[150vh] overflow-hidden">
+        <img class="absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mic-blend-screen filter saturate-150 contrast-125" 
+        src="https://www.pngall.com/wp-content/uploads/4/Cyberpunk-2077-Logo-PNG-Image.png" alt="Sample Image" />
+        <div class="w-[38rem] h-[38rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] rounded-full bg-blue-800 blur-[90px]"></div>
+        <canvas id="canvas"></canvas>
+      </div>
+      <div class="w-full h-screen relative bg-[#000]"></div>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+
+  </body>
+</html>
